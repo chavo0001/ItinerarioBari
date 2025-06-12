@@ -48,7 +48,7 @@ export default function DayPage({ params }) {
 
       {day.links?.length > 0 && (
         <>
-          <h3 className={styles.subtitle}>Link vari</h3>
+          <h3 className={styles.subtitle}>Link Ristorante/Location</h3>
           <ul className={styles.linkList}>
             {day.links.map((link, i) => (
               <li key={i}>

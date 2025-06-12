@@ -33,7 +33,7 @@
 }
 
 .backLink::after {
-  content: '←';
+
   margin-right: 0.5rem;
   color: #ff5e57;
 }

@@ -12,10 +12,11 @@ const itinerary = [
 
 🌇 Pomeriggio
 - Giretto per Bari Vecchia
-- Gelato/granita 
+- Gelato/granita s
 - Passeggiata sul lungomare
 
 🌙 Sera
+- Scopatina di riscaldamento (pigliare i ventilatori)
 - Cena Friggitoria-Pescheria “Frisc&Mang” - fritto di mare fresco
 
 `,
@@ -55,23 +56,46 @@ const itinerary = [
   },
   {
     id: 2,
-    title: "Giorno 2 – Mezza giornata a Trani 🏖️⛪",
+    title: "Giorno 2 – Trani 🏰(città) OPPURE Monopoli🏖️ (spiagge capitolo)",
     description: `
+OPZIONE 1:
+
 🥐Colazione
 - bari vecchia/via Sparano
 
 🚗 Mattina
-- Partenza da Bari a Trani: 41,8 km / 42 min in auto
+- Partenza da Bari a Trani: 41,8 km / 42 min in auto 
 - Visita di Trani e passeggiata nei vicoli antichi
 
 🍽️ Pranzo
-- Sul porto di Trani con vista mare/ street food del posto
+- Al sacco/in paese
 
 🌇 Pomeriggio
 - Relax/libero o gelato/granita
 
 🚗 Rientro a Bari: 41,8 km / 42 min in auto
-`,
+
+-----------------------------------------------------------------------------------------------
+
+OPZIONE 2:
+
+🥐Colazione
+- bari vecchia/via Sparano
+
+🚗 Mattina
+- Partenza da Bari a Capitolo: 55 km / 45 min in auto 
+- Spiaggia sabbia
+
+🍽️ Pranzo
+- Sul porto di Trani con vista mare/ street food del posto
+
+🍹 Pomeriggio
+- Spiaggia + aperitivo Macramè Beach Experience (divanetti/sedioline--> bell'atmosfera)
+
+🚗 Rientro a Bari: 45 min in auto
+
+`
+,
     stops: [
       { name: "Bari", image: "/images/bari.jpg" },
       { name: "Cattedrale di Trani", image: "/images/trani_cattedrale.jpg" },
@@ -85,8 +109,8 @@ const itinerary = [
     highlights: [
       
     ],
-    links: [
-      {label: "Trani Wikipedia", url: "https://it.wikipedia.org/wiki/Trani" }
+   links: [
+      { label: "Macramè Beach experience", url: "https://www.macramemonopoli.it/en/spiaggia-en/" }
     ]
   },
   {
@@ -160,9 +184,7 @@ const itinerary = [
     highlights: [
     
     ],
-    links: [
-      { label: "Torre Guaceto - visit Puglia", url: "https://www.visitpuglia.it/torreguaceto" }
-    ]
+  
   },
   {
     id: 5,
@@ -203,8 +225,8 @@ const itinerary = [
     
     ],
     links: [
-      { label: "Alberobello Wikipedia", url: "https://it.wikipedia.org/wiki/Alberobello" },
-      { label: "Locorotondo Wikipedia", url: "https://it.wikipedia.org/wiki/Locorotondo" }
+      { label: "Ristorante Specchia Polignano", url: "https://www.tripadvisor.it/Restaurant_Review-g635875-d3350625-Reviews-Specchia_Sant_Oronzo-Polignano_a_Mare_Province_of_Bari_Puglia.html" }
+      
     ]
   },
   {
@@ -214,6 +236,7 @@ const itinerary = [
 
   🌞 Mattina
 - Bari -> Matera 1h30
+- Esplorazione città
 
 🍽️ Pranzo
 - Locale tipico/street food
@@ -272,10 +295,10 @@ const itinerary = [
     id: 8,
     title: "Giorno 8 – Last day🥲",
     description: `
-🌞 Mattina
 
 
-🍽️ Pranzo
+
+                      <<<<<<<<<<<<   Sceglie la topa 🧜‍♀️  >>>>>>>>>>>>
 
 
 
