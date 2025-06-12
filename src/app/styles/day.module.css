@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 .container {
@@ -26,7 +27,7 @@
   color: #ff5e57;
   font-weight: 700;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.1rem;  
   position: relative;
   transition: color 0.3s ease;
 }
@@ -49,6 +50,13 @@
   margin-bottom: 1.5rem;
 }
 
+/* Adattamento per smartphone */
+@media (max-width: 640px) {
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+}
 .description {
   white-space: pre-line;
   margin-bottom: 2.5rem;

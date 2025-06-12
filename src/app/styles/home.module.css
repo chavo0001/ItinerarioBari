@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 .container {
   padding: 4rem 2rem;
@@ -26,10 +26,18 @@
   font-size: 3.5rem;
   font-weight: 700;
   text-align: center;
-  color: #ffffff;
+  color: #e631da;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
   margin-bottom: 3rem;
   animation: bounce 1.2s ease;
+}
+
+/* 👇 Aggiunta per rendere il titolo più piccolo su smartphone */
+@media (max-width: 640px) {
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 @keyframes bounce {
