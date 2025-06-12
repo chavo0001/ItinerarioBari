@@ -48,9 +48,7 @@ const itinerary = [
     travel: [
       { from: "Casa", to: "Via Principe Amedeo", mode: "a piedi", duration: "6 min", distance: "500 m" },
     ],
-    highlights: [
-      
-    ],
+    //highlights: [ ],
     links: [
       { label: "TripAdvisor Frisc&Mang", url: "https://www.tripadvisor.it/Restaurant_Review-g10368972-d27457789-Reviews-Friggitoria_Pescheria_Frisc_Mang_Bari-Carbonara_di_Bari_Bari_Province_of_Bari_.html" }
     ]
@@ -126,7 +124,7 @@ const itinerary = [
       
     ],
     links: [
-      { label: "Polignano a Mare Wikipedia", url: "https://it.wikipedia.org/wiki/Polignano_a_Mare" }
+      { label: "TripAdvisor Lisi Anna", url: "https://www.tripadvisor.it/Restaurant_Review-g652003-d12543880-Reviews-Macelleria_Lisi_Anna-Monopoli_Province_of_Bari_Puglia.html" }
     ]
   },
   {

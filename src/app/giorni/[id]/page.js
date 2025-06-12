@@ -32,14 +32,19 @@ export default function DayPage({ params }) {
         />
       )}
 
-      <h3 className={styles.subtitle}>Punti Salienti</h3>
-      <ul className={styles.list}>
-        {day.highlights?.map((point, i) => (
-          <li key={i} className={styles.listItem}>
-            {point}
-          </li>
-        ))}
-      </ul>
+      {day.highlights && day.highlights.length > 0 && (
+  <>
+    <h3 className={styles.subtitle}>Punti Salienti</h3>
+    <ul className={styles.list}>
+      {day.highlights.map((point, i) => (
+        <li key={i} className={styles.listItem}>
+          {point}
+        </li>
+      ))}
+    </ul>
+  </>
+)}
+
 
       {day.links?.length > 0 && (
         <>
