@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(120deg, #ffecd2, #4480f7);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.15));
+  backdrop-filter: blur(12px);
+  padding: 3rem;
+  border-radius: 28px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  color: #1e1e1e;
+  animation: fadeIn 1s ease-out forwards;
+  transform: translateY(20px);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #ff5e57;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.backLink::after {
+  content: '←';
+  margin-right: 0.5rem;
+  color: #ff5e57;
+}
+
+.backLink:hover {
+  color: #2d91ff;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  white-space: pre-line;
+  margin-bottom: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #000000;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease;
+}
+
+.image:hover {
+  transform: scale(1.03);
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.list,
+.linkList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.listItem {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.listItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15);
+}
+
+.link {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+
+.link:hover {
+  color: #ff7f50;
+}
