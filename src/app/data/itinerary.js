@@ -298,7 +298,7 @@ OPZIONE 2:
 
 
 
-                      <<<<<<<<<<<<   Sceglie la topa 🧜‍♀️  >>>>>>>>>>>>
+                     <<<<  Sceglie la topa 🧜‍♀️ >>>>
 
 
 
